@@ -1,0 +1,38 @@
+Ensuring 24 Circles Fit Along the Edge of a Larger Circle
+To ensure the 24 smaller circles fit perfectly along the edge of the larger circle without overlapping, the arc length occupied by each circle (including its gap) must match the circumference of the larger circle.
+
+Step-by-Step Calculation
+Smaller Circle Diameter:
+ds=0.75inches.
+
+Gap Between Circles:
+𝑔 = 0.075 𝑖𝑛
+g = 0.075inches.
+
+Total Spacing Per Small Circle (arc length):
+s = d_s + g = 0.75 + 0.075 = 0.825 inches.
+
+Circumference of Larger Circle:
+To fit 24 circles, the total spacing must equal the circumference of the larger circle:
+C = 24 × s = 24 × 0.825 = 19.8 inches.
+
+Radius of Larger Circle:
+Using the circumference formula 
+C=2πr:
+r = C / (2π) = 19.8 / (2 × 3.1416) ≈ 3.15 inches.
+
+Diameter of Larger Circle:
+D = 2 × r = 2 × 3.15 = 6.3 inches.
+
+Angular Placement
+To ensure proper placement:
+
+Angle Between Circles:
+θ = 360° / 24 = 15°.
+Each circle is placed at 0°, 15°, 30°, ..., 345°, ensuring no overlap.
+
+Key Results
+Minimum diameter of larger circle: 6.3 inches.
+Gap size: 0.075 inches.
+Rotation angle per circle: 15°.
+This configuration guarantees 24 non-overlapping circles fit perfectly along the edge.
